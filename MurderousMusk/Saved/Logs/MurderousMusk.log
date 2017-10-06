@@ -345,3 +345,15 @@ LogInit: Object subsystem initialized
 [2017.10.06-20.10.20:862][885]LogSavePackage: Save=1620.10ms
 [2017.10.06-20.10.20:863][885]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap2215AF3F42AD6CC29DC3AA8A5F1C1DB2.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap'
 [2017.10.06-20.10.20:880][885]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.10.06-20.37.09:848][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset" SILENT=true
+[2017.10.06-20.37.09:958][927]LogSavePackage: Save=79.02ms
+[2017.10.06-20.37.09:958][927]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryEA058BF3440FF1047A4E3B818F004C8E.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset'
+[2017.10.06-20.37.09:981][927]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset
+[2017.10.06-20.37.11:031][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InventoryType" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset" SILENT=true
+[2017.10.06-20.37.11:068][ 50]LogSavePackage: Save=10.55ms
+[2017.10.06-20.37.11:068][ 50]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryTypeCF6F091F4E8DD20DDCE053B3662E07B3.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset'
+[2017.10.06-20.37.11:086][ 50]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset
+[2017.10.06-20.37.12:450][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.06-20.37.16:223][135]LogSavePackage: Save=2256.75ms
+[2017.10.06-20.37.16:223][135]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap0F99FF1445ACCAEC36B2F0A600023F97.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.10.06-20.37.16:245][135]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap
