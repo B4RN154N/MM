@@ -286,3 +286,62 @@ LogInit: Object subsystem initialized
 [2017.10.06-19.35.52:133][  2]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
 [2017.10.06-19.35.52:134][  2]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/', and we were unable to create a new request.
 [2017.10.06-19.35.52:464][  3]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.06-19.43.05:675][ 13]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.06-19.45.51:912][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.021
+[2017.10.06-19.45.51:924][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Inventory] ([1] browsable assets)...
+[2017.10.06-19.45.51:924][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Inventory]
+[2017.10.06-19.45.51:924][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory" FILE="M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/Inventory_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.06-19.45.51:964][898]LogSavePackage: Save=27.71ms
+[2017.10.06-19.45.51:964][898]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/Inventory_Auto1331E7FEC4A5D2C9F130AB4994D8A4983.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/Inventory_Auto1.uasset'
+[2017.10.06-19.45.51:981][898]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/Inventory_Auto1.uasset
+[2017.10.06-19.45.51:981][898]LogFileHelpers: Auto-saving content packages took 0.068
+[2017.10.06-19.47.50:328][731]LogRenderer: Reallocating scene render targets to support 1004x744 Format 10 NumSamples 1 (Frame:1385).
+[2017.10.06-19.56.00:801][941]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.023
+[2017.10.06-19.56.00:815][941]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InventoryType] ([1] browsable assets)...
+[2017.10.06-19.56.00:815][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InventoryType]
+[2017.10.06-19.56.00:815][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InventoryType" FILE="M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InventoryType_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.06-19.56.00:838][941]LogSavePackage: Save=10.94ms
+[2017.10.06-19.56.00:838][941]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryType_Auto22B5504FA4248FCB2B55CC4A57DB6CB2D.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InventoryType_Auto2.uasset'
+[2017.10.06-19.56.00:852][941]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InventoryType_Auto2.uasset
+[2017.10.06-19.56.00:852][941]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.10.06-19.58.32:423][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InventoryType" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset" SILENT=true
+[2017.10.06-19.58.32:451][122]LogSavePackage: Save=12.22ms
+[2017.10.06-19.58.32:451][122]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryType65FA968D4444BAB0363832ACE9EF0E14.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset'
+[2017.10.06-19.58.32:473][122]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset
+[2017.10.06-19.59.01:551][399]LogRenderer: Reallocating scene render targets to support 1008x744 Format 10 NumSamples 1 (Frame:2159).
+[2017.10.06-19.59.01:626][400]LogRenderer: Reallocating scene render targets to support 1024x744 Format 10 NumSamples 1 (Frame:2161).
+[2017.10.06-19.59.01:698][401]LogRenderer: Reallocating scene render targets to support 1092x744 Format 10 NumSamples 1 (Frame:2163).
+[2017.10.06-19.59.02:030][402]LogRenderer: Reallocating scene render targets to support 1140x744 Format 10 NumSamples 1 (Frame:2165).
+[2017.10.06-19.59.02:230][403]LogRenderer: Reallocating scene render targets to support 1244x744 Format 10 NumSamples 1 (Frame:2166).
+[2017.10.06-19.59.08:286][695]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2017.10.06-19.59.15:062][902]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2017.10.06-19.59.17:692][983]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2017.10.06-19.59.30:090][763]LogSlate: Took 0.020837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.06-20.00.57:887][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InventoryType" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset" SILENT=true
+[2017.10.06-20.00.57:936][101]LogSavePackage: Save=12.53ms
+[2017.10.06-20.00.57:936][101]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryType38616B7B4B08D9AA71DC1FB2679DFA6A.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset'
+[2017.10.06-20.00.57:961][101]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryType.uasset
+[2017.10.06-20.05.08:236][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset" SILENT=true
+[2017.10.06-20.05.08:323][ 24]LogSavePackage: Save=74.95ms
+[2017.10.06-20.05.08:323][ 24]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryE7F3A16A4068769D5643FCBA67FA05A6.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset'
+[2017.10.06-20.05.08:348][ 24]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset
+[2017.10.06-20.05.30:087][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset" SILENT=true
+[2017.10.06-20.05.30:194][621]LogSavePackage: Save=74.11ms
+[2017.10.06-20.05.30:194][621]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/Inventory58F2628E4962028538A2C481C6E2593A.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset'
+[2017.10.06-20.05.30:227][621]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset
+[2017.10.06-20.05.30:653][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset" SILENT=true
+[2017.10.06-20.05.30:746][669]LogSavePackage: Save=74.07ms
+[2017.10.06-20.05.30:746][669]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryA881E0044B1A36DBB1D9F48AC008133E.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset'
+[2017.10.06-20.05.30:763][669]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset
+[2017.10.06-20.08.52:982][945]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.06-20.08.52:985][946]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.06-20.08.52:986][946]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/', and we were unable to create a new request.
+[2017.10.06-20.10.14:236][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Inventory" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset" SILENT=true
+[2017.10.06-20.10.14:342][632]LogSavePackage: Save=78.36ms
+[2017.10.06-20.10.14:342][632]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/Inventory3E333B114B81DE4FE076458CD5D097E3.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset'
+[2017.10.06-20.10.14:368][632]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/Inventory.uasset
+[2017.10.06-20.10.17:736][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.06-20.10.20:850][885]LogSlate: Took 0.000509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.06-20.10.20:862][885]LogSavePackage: Save=1620.10ms
+[2017.10.06-20.10.20:863][885]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap2215AF3F42AD6CC29DC3AA8A5F1C1DB2.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.10.06-20.10.20:880][885]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap
