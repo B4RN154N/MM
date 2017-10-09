@@ -793,3 +793,8 @@ LogInit: Object subsystem initialized
 [2017.10.09-16.23.53:727][296]LogSavePackage: Save=239.22ms
 [2017.10.09-16.23.53:727][296]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject37D3A8F64C699C49447537AE0D679153.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
 [2017.10.09-16.23.53:753][296]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-16.24.38:483][700]LogSavePackage: Save=821.92ms
+[2017.10.09-16.24.38:483][700]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_Auto9CFCC73464EDF44836F6552B4E2C0C349.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto9.umap'
+[2017.10.09-16.24.38:493][700]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto9.umap
+[2017.10.09-16.24.38:502][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.100
+[2017.10.09-16.24.38:502][700]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.100
