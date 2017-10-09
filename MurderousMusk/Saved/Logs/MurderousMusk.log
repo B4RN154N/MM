@@ -1,12 +1,12 @@
-﻿Log file open, 10/09/17 12:34:39
+﻿Log file open, 10/09/17 14:52:51
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: MurderousMusk
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1163536607) SRandInit(-1163536607).
+LogInit: Display: RandInit(-1081029426) SRandInit(-1081029426).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.175544
+LogStats: Stats thread started at 0.179018
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,181 +108,688 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.09-11.34.41:426][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.09-11.34.41:426][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.09-11.34.41:471][  0]LogInit: Computer: MC10762
-[2017.10.09-11.34.41:471][  0]LogInit: User: 1602897
-[2017.10.09-11.34.41:471][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.09-11.34.41:471][  0]LogInit: High frequency timer resolution =3.118046 MHz
-[2017.10.09-11.34.41:472][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.10.09-11.34.41:472][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.09-11.34.41:472][  0]LogMemory: Process Physical Memory: 279.48 MB used, 279.48 MB peak
-[2017.10.09-11.34.41:472][  0]LogMemory: Process Virtual Memory: 284.42 MB used, 284.42 MB peak
-[2017.10.09-11.34.41:472][  0]LogMemory: Physical Memory: 2557.35 MB used,  5577.60 MB free, 8134.95 MB total
-[2017.10.09-11.34.41:472][  0]LogMemory: Virtual Memory: 663.19 MB used,  5577.60 MB free, 8388608.00 MB total
-[2017.10.09-11.34.41:854][  0]LogInit: Using OS detected language (en-GB).
-[2017.10.09-11.34.41:854][  0]LogInit: Using OS detected locale (en-GB).
-[2017.10.09-11.34.41:858][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.10.09-11.34.42:650][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.09-11.34.42:665][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 440' (Feature Level 11_0)
-[2017.10.09-11.34.42:666][  0]LogD3D11RHI:       979/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.09-11.34.42:666][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.09-11.34.42:669][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.09-11.34.42:669][  0]LogD3D11RHI:     GPU DeviceId: 0xde0 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.09-11.34.42:669][  0]LogWindows: EnumDisplayDevices:
-[2017.10.09-11.34.42:670][  0]LogWindows:    0. 'NVIDIA GeForce GT 440' (P:1 D:1)
-[2017.10.09-11.34.42:670][  0]LogWindows:    1. 'NVIDIA GeForce GT 440' (P:0 D:0)
-[2017.10.09-11.34.42:670][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
-[2017.10.09-11.34.42:670][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.10.09-11.34.42:670][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.10.09-11.34.42:670][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
-[2017.10.09-11.34.42:670][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 440
-[2017.10.09-11.34.42:670][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
-[2017.10.09-11.34.42:670][  0]LogD3D11RHI:      Driver Date: 3-16-2017
-[2017.10.09-11.34.42:670][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
-[2017.10.09-11.34.42:680][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.10.09-11.34.42:680][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.09-11.34.42:695][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.10.09-11.34.42:743][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (M:/GitHub/MM/MurderousMusk/Intermediate/Shaders/WorkingDirectory/2660/).
-[2017.10.09-11.34.42:743][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1602897/AppData/Local/Temp/UnrealShaderWorkingDir/AA78E215424BF6B7F85AAD8A7822F32E/'.
-[2017.10.09-11.34.42:743][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.09-11.34.44:010][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.09-11.34.44:110][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.09-11.34.44:212][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.09-11.34.44:313][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.09-11.34.44:415][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.09-11.34.44:516][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.09-11.34.44:618][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.09-11.34.44:720][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.09-11.34.44:811][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.09-11.34.44:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.09-11.34.45:011][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.09-11.34.45:111][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.09-11.34.45:211][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.09-11.34.45:310][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.09-11.34.45:415][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.09-11.34.45:615][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.09-11.34.45:615][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.09-11.34.45:700][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.09-11.34.45:862][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.09-11.34.45:921][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.09-11.34.46:023][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.09-11.34.46:123][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.09-11.34.46:223][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.09-11.34.46:325][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.09-11.34.46:325][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.09-11.34.47:303][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.09-11.34.47:403][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/1602897/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.09-11.34.47:403][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1602897/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.09-11.34.47:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file M:/GitHub/MM/MurderousMusk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.09-11.34.47:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.09-11.34.47:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file M:/GitHub/MM/MurderousMusk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.09-11.34.47:405][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.09-11.34.47:424][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.09-11.34.47:436][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1602897/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.09-11.34.47:448][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.09-11.34.47:448][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.09-11.34.47:449][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.09-11.34.47:449][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.09-11.34.47:781][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2017.10.09-11.34.48:068][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.09-11.34.48:073][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.09-11.34.48:770][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.09-11.34.48:854][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.09-11.34.48:854][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.09-11.34.48:854][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.09-11.34.48:854][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.09-11.34.48:854][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.09-11.34.49:240][  0]LogNetVersion: MurderousMusk , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1135293484)
-[2017.10.09-11.34.49:670][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.183387 seconds
-[2017.10.09-11.34.49:676][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.09-11.34.49:676][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.09-11.34.49:676][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.09-11.34.49:802][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.09-11.34.53:897][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.09-11.34.53:960][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.09-11.34.53:962][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.34.55:184][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.09-11.34.55:979][  0]SourceControl: Source control is disabled
-[2017.10.09-11.34.55:979][  0]SourceControl: Source control is disabled
-[2017.10.09-11.34.56:080][  0]SourceControl: Source control is disabled
-[2017.10.09-11.34.56:186][  0]SourceControl: Source control is disabled
-[2017.10.09-11.34.57:401][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.09-11.34.57:914][  0]LogOcInput: OculusInput pre-init called
-[2017.10.09-11.34.58:416][  0]LogEngine: Initializing Engine...
-[2017.10.09-11.34.58:419][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.09-11.34.58:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.09-11.34.58:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.09-11.34.59:011][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.09-11.34.59:023][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.09-11.34.59:090][  0]LogInit: FAudioDevice initialized.
-[2017.10.09-11.34.59:312][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/1602897/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.09-11.34.59:332][  0]LogInit: Texture streaming: Enabled
-[2017.10.09-11.34.59:576][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.09-11.35.00:050][  0]LogInit: Transaction tracking system initialized
-[2017.10.09-11.35.00:696][  0]BlueprintLog: New page: Editor Load
-[2017.10.09-11.35.02:534][  0]LocalizationService: Localization service is disabled
-[2017.10.09-11.35.03:929][  0]LogConsoleResponse: Display: 
-[2017.10.09-11.35.04:158][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.09-11.35.04:158][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.09-11.35.04:158][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.09-11.35.04:696][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Content/' took 0.10s
-[2017.10.09-11.35.06:229][  0]SourceControl: Source control is disabled
-[2017.10.09-11.35.06:229][  0]Cmd: MAP LOAD FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.09-11.35.06:235][  0]LightingResults: New page: Lighting Build
-[2017.10.09-11.35.06:322][  0]MapCheck: New page: Map Check
-[2017.10.09-11.35.06:322][  0]LightingResults: New page: Lighting Build
-[2017.10.09-11.35.09:719][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2017.10.09-11.35.09:819][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.09-11.35.09:878][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.09-11.35.09:979][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.395ms to complete.
-[2017.10.09-11.35.09:979][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.749
-[2017.10.09-11.35.10:554][  0]LogCollectionManager: Loaded 0 collections in 0.004233 seconds
-[2017.10.09-11.35.10:747][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Saved/Collections/' took 0.01s
-[2017.10.09-11.35.10:747][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/' took 0.01s
-[2017.10.09-11.35.10:747][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Content/Collections/' took 0.01s
-[2017.10.09-11.35.10:747][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.09-11.35.10:763][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2386 classes and 500 folders.
-[2017.10.09-11.35.10:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.10.09-11.35.11:450][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
-[2017.10.09-11.35.11:565][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.10.09-11.35.11:761][  0]LogSlate: Took 0.000630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.09-11.35.11:765][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.09-11.35.11:820][  0]LogSlate: Took 0.017437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.09-11.35.12:150][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
-[2017.10.09-11.35.12:922][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.10.09-11.35.12:922][  0]LogLoad: (Engine Initialization) Total time: 34.68 seconds
-[2017.10.09-11.35.12:922][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.09-11.35.12:923][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.09-11.35.12:923][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.09-11.35.12:955][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.09-11.35.13:012][  0]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
-[2017.10.09-11.35.13:085][  1]LogAssetRegistry: Asset discovery search completed in 25.3219 seconds
-[2017.10.09-11.35.13:087][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.09-11.35.13:087][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
-[2017.10.09-11.35.13:221][  3]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:222][  3]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/', and we were unable to create a new request.
-[2017.10.09-11.35.13:222][  3]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:222][  3]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:222][  3]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:244][  4]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:245][  4]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Saved/Collections/', and we were unable to create a new request.
-[2017.10.09-11.35.13:245][  4]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:245][  4]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/', and we were unable to create a new request.
-[2017.10.09-11.35.13:245][  4]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.09-11.35.13:246][  4]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/', and we were unable to create a new request.
-[2017.10.09-11.36.52:008][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.10.09-11.36.53:460][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.10.09-11.36.55:311][834]Cmd: SELECT NONE
-[2017.10.09-11.37.09:815][756]LogSlate: Took 0.019872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.09-11.37.18:753][892]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.09-11.38.13:958][728]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InventoryItem.InventoryItem' ref from Metadata '/Game/TopDownBP/Blueprints/Inventory.PackageMetaData'
-[2017.10.09-11.38.13:958][728]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InventoryItem.InventoryItem:range_12_2BEADAD743D4BBA7D4C817B71CFFDAB1' ref from Metadata '/Game/TopDownBP/Blueprints/Inventory.PackageMetaData'
-[2017.10.09-11.38.13:958][728]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InventoryItem.InventoryItem:id_9_6D2F90CD481ACDFE2849F98AE2BE8BD0' ref from Metadata '/Game/TopDownBP/Blueprints/Inventory.PackageMetaData'
-[2017.10.09-11.38.13:958][728]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InventoryItem.InventoryItem:destruction_7_D59171AA4ECEA9FC5E456C95B3D2187B' ref from Metadata '/Game/TopDownBP/Blueprints/Inventory.PackageMetaData'
-[2017.10.09-11.38.13:958][728]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InventoryItem.InventoryItem:damage_5_E6FCF3CB46A75314231ED6B673B9AB5C' ref from Metadata '/Game/TopDownBP/Blueprints/Inventory.PackageMetaData'
-[2017.10.09-11.38.13:958][728]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InventoryItem.InventoryItem:type_13_A67C14CB431353D4B21099BF72424188' ref from Metadata '/Game/TopDownBP/Blueprints/Inventory.PackageMetaData'
-[2017.10.09-11.38.14:004][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InventoryItem" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryItem.uasset" SILENT=true
-[2017.10.09-11.38.14:131][728]LogSavePackage: Save=98.67ms
-[2017.10.09-11.38.14:131][728]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InventoryItemB78EF62F436352709904F8BCD2DECF0B.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryItem.uasset'
-[2017.10.09-11.38.14:152][728]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InventoryItem.uasset
+[2017.10.09-13.52.52:935][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-13.52.52:935][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.09-13.52.52:966][  0]LogInit: Computer: MC10762
+[2017.10.09-13.52.52:966][  0]LogInit: User: 1602897
+[2017.10.09-13.52.52:966][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.09-13.52.52:966][  0]LogInit: High frequency timer resolution =3.118046 MHz
+[2017.10.09-13.52.52:966][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.09-13.52.52:966][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-13.52.52:966][  0]LogMemory: Process Physical Memory: 279.45 MB used, 279.45 MB peak
+[2017.10.09-13.52.52:966][  0]LogMemory: Process Virtual Memory: 284.42 MB used, 284.42 MB peak
+[2017.10.09-13.52.52:966][  0]LogMemory: Physical Memory: 2313.66 MB used,  5821.29 MB free, 8134.95 MB total
+[2017.10.09-13.52.52:966][  0]LogMemory: Virtual Memory: 663.19 MB used,  5821.29 MB free, 8388608.00 MB total
+[2017.10.09-13.52.53:312][  0]LogInit: Using OS detected language (en-GB).
+[2017.10.09-13.52.53:312][  0]LogInit: Using OS detected locale (en-GB).
+[2017.10.09-13.52.53:316][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.10.09-13.52.54:103][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.09-13.52.54:119][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 440' (Feature Level 11_0)
+[2017.10.09-13.52.54:119][  0]LogD3D11RHI:       979/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.09-13.52.54:119][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.09-13.52.54:123][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.09-13.52.54:123][  0]LogD3D11RHI:     GPU DeviceId: 0xde0 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.09-13.52.54:123][  0]LogWindows: EnumDisplayDevices:
+[2017.10.09-13.52.54:123][  0]LogWindows:    0. 'NVIDIA GeForce GT 440' (P:1 D:1)
+[2017.10.09-13.52.54:123][  0]LogWindows:    1. 'NVIDIA GeForce GT 440' (P:0 D:0)
+[2017.10.09-13.52.54:124][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.09-13.52.54:124][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.09-13.52.54:124][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.09-13.52.54:124][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.10.09-13.52.54:124][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 440
+[2017.10.09-13.52.54:124][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.10.09-13.52.54:124][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.10.09-13.52.54:124][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2017.10.09-13.52.54:133][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.10.09-13.52.54:133][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.09-13.52.54:148][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.09-13.52.54:196][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (M:/GitHub/MM/MurderousMusk/Intermediate/Shaders/WorkingDirectory/5496/).
+[2017.10.09-13.52.54:196][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1602897/AppData/Local/Temp/UnrealShaderWorkingDir/A928096D4F58E389193C16BD771D5B18/'.
+[2017.10.09-13.52.54:196][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.09-13.52.55:377][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.09-13.52.55:477][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.09-13.52.55:578][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.09-13.52.55:680][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.09-13.52.55:783][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.09-13.52.55:884][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.09-13.52.55:986][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.09-13.52.56:087][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.09-13.52.56:180][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.09-13.52.56:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.09-13.52.56:383][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.09-13.52.56:484][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.09-13.52.56:584][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.09-13.52.56:685][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.09-13.52.56:786][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.09-13.52.56:986][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.09-13.52.56:986][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.09-13.52.57:071][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.09-13.52.57:237][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.09-13.52.57:296][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.09-13.52.57:397][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.09-13.52.57:497][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.09-13.52.57:597][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.09-13.52.57:698][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.09-13.52.57:698][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.09-13.52.58:675][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.09-13.52.58:781][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/1602897/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.09-13.52.58:781][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1602897/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.09-13.52.58:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file M:/GitHub/MM/MurderousMusk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.09-13.52.58:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.09-13.52.58:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file M:/GitHub/MM/MurderousMusk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.09-13.52.58:783][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.09-13.52.58:801][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.09-13.52.58:813][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1602897/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.09-13.52.58:825][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.09-13.52.58:825][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.09-13.52.58:826][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-13.52.58:826][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-13.52.59:139][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.10.09-13.52.59:419][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-13.52.59:423][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.09-13.53.00:102][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.09-13.53.00:186][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.09-13.53.00:187][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.09-13.53.00:187][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.09-13.53.00:187][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.09-13.53.00:187][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.09-13.53.00:584][  0]LogNetVersion: MurderousMusk , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1135293484)
+[2017.10.09-13.53.01:046][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.180391 seconds
+[2017.10.09-13.53.01:053][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.09-13.53.01:053][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.09-13.53.01:053][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.09-13.53.01:179][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.09-13.53.05:196][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.09-13.53.05:259][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.09-13.53.05:260][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.06:468][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.09-13.53.07:208][  0]SourceControl: Source control is disabled
+[2017.10.09-13.53.07:208][  0]SourceControl: Source control is disabled
+[2017.10.09-13.53.07:302][  0]SourceControl: Source control is disabled
+[2017.10.09-13.53.07:393][  0]SourceControl: Source control is disabled
+[2017.10.09-13.53.08:514][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.09-13.53.08:984][  0]LogOcInput: OculusInput pre-init called
+[2017.10.09-13.53.09:451][  0]LogEngine: Initializing Engine...
+[2017.10.09-13.53.09:453][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.09-13.53.09:693][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.09-13.53.09:693][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.09-13.53.10:026][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.09-13.53.10:037][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-13.53.10:106][  0]LogInit: FAudioDevice initialized.
+[2017.10.09-13.53.10:509][  0]LogDerivedDataCache: Saved boot cache 0.40s 93MB C:/Users/1602897/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.09-13.53.10:528][  0]LogInit: Texture streaming: Enabled
+[2017.10.09-13.53.10:779][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.09-13.53.11:227][  0]LogInit: Transaction tracking system initialized
+[2017.10.09-13.53.11:873][  0]BlueprintLog: New page: Editor Load
+[2017.10.09-13.53.13:716][  0]LocalizationService: Localization service is disabled
+[2017.10.09-13.53.15:108][  0]LogConsoleResponse: Display: 
+[2017.10.09-13.53.15:323][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.09-13.53.15:323][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.09-13.53.15:323][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.09-13.53.15:871][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Content/' took 0.07s
+[2017.10.09-13.53.17:413][  0]SourceControl: Source control is disabled
+[2017.10.09-13.53.17:414][  0]Cmd: MAP LOAD FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.09-13.53.17:418][  0]LightingResults: New page: Lighting Build
+[2017.10.09-13.53.17:504][  0]MapCheck: New page: Map Check
+[2017.10.09-13.53.17:504][  0]LightingResults: New page: Lighting Build
+[2017.10.09-13.53.18:312][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-13.53.18:322][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.09-13.53.18:348][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.09-13.53.18:436][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.861ms to complete.
+[2017.10.09-13.53.18:436][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.022
+[2017.10.09-13.53.18:623][  0]LogCollectionManager: Loaded 0 collections in 0.002919 seconds
+[2017.10.09-13.53.18:771][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Saved/Collections/' took 0.01s
+[2017.10.09-13.53.18:771][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/' took 0.01s
+[2017.10.09-13.53.18:771][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/MM/MurderousMusk/Content/Collections/' took 0.01s
+[2017.10.09-13.53.18:771][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.09-13.53.18:781][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2386 classes and 500 folders.
+[2017.10.09-13.53.18:916][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.09-13.53.18:982][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.09-13.53.19:073][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.10.09-13.53.19:096][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-13.53.19:099][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.09-13.53.19:105][  0]LogSlate: Took 0.000519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.09-13.53.19:231][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
+[2017.10.09-13.53.19:471][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.10.09-13.53.19:471][  0]LogLoad: (Engine Initialization) Total time: 29.55 seconds
+[2017.10.09-13.53.19:471][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.09-13.53.19:472][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.09-13.53.19:472][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.09-13.53.19:508][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:509][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/', and we were unable to create a new request.
+[2017.10.09-13.53.19:509][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:509][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:509][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:511][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.09-13.53.19:548][  0]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2017.10.09-13.53.19:585][  1]LogAssetRegistry: Asset discovery search completed in 20.4654 seconds
+[2017.10.09-13.53.19:586][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.09-13.53.19:586][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.10.09-13.53.19:587][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:587][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Saved/Collections/', and we were unable to create a new request.
+[2017.10.09-13.53.19:587][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:588][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Developers/1602897/Collections/', and we were unable to create a new request.
+[2017.10.09-13.53.19:588][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2017.10.09-13.53.19:588][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/MM/MurderousMusk/Content/Collections/', and we were unable to create a new request.
+[2017.10.09-13.53.20:497][ 80]LogSlate: Took 0.000469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-13.53.50:897][377]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-13.55.37:289][ 15]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-13.55.37:821][ 15]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 113 classes and 0 folders.
+[2017.10.09-13.55.41:186][ 82]LogRenderer: Reallocating scene render targets to support 1004x720 Format 10 NumSamples 1 (Frame:59).
+[2017.10.09-13.55.53:758][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:758][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:758][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint_C' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:758][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:758][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:758][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:ReceiveTick' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:DefaultSceneRoot1' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint_C:DefaultSceneRoot1' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:759][ 19]LogMetaData: Removing '/Game/TopDownBP/InteractiveObject_Blueprint.InteractiveObject_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.53:784][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/InteractiveObject_Blueprint" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/InteractiveObject_Blueprint.uasset" SILENT=true
+[2017.10.09-13.55.53:863][ 19]LogSavePackage: Save=70.70ms
+[2017.10.09-13.55.53:864][ 19]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Blueprint1FBCFEEB4F1D6088AAE8E6B1DF4F7D5C.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/InteractiveObject_Blueprint.uasset'
+[2017.10.09-13.55.53:885][ 19]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/InteractiveObject_Blueprint.uasset
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint_C' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint_C:DefaultSceneRoot1' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:DefaultSceneRoot1' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.SKEL_InteractiveObject_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:603][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.InteractiveObject_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.55.58:634][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject_Blueprint.uasset" SILENT=true
+[2017.10.09-13.55.58:715][320]LogSavePackage: Save=71.14ms
+[2017.10.09-13.55.58:715][320]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Blueprint60388AD547B51C632C9176A06D7BBA92.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject_Blueprint.uasset'
+[2017.10.09-13.55.58:737][320]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject_Blueprint.uasset
+[2017.10.09-13.56.28:551][698]MapCheck: New page: Map Check
+[2017.10.09-13.56.28:563][698]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.09-13.56.28:563][698]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.09-13.56.28:755][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.10.09-13.56.28:765][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.10.09-13.56.28:771][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.10.09-13.56.28:779][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.10.09-13.56.28:786][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.10.09-13.56.28:798][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.10.09-13.56.28:807][698]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.10.09-13.56.29:488][698]TextureStreamingBuild: Display: Compiling optional shaders took 0.742 seconds.
+[2017.10.09-13.56.29:495][698]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2017.10.09-13.56.29:503][698]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2017.10.09-13.56.29:520][698]LightingResults: New page: Lighting Build - 9 Oct 2017 15:56:29
+[2017.10.09-13.56.29:573][698]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.09-13.56.29:598][698]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.09-13.56.29:610][698]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.09-13.56.30:129][698]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.09-13.56.30:129][698]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5496
+[2017.10.09-13.56.34:374][698]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.09-13.56.34:374][698]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.09-13.56.34:374][698]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.09-13.56.34:374][698]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.09-13.56.34:374][698]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.09-13.56.34:483][698]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.09-13.56.34:483][698]MapCheck: New page: TopDownExampleMap - 9 Oct 2017 15:56:34
+[2017.10.09-13.56.34:486][698]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2017.10.09-13.56.34:614][698]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 130.403ms to complete.
+[2017.10.09-13.56.34:634][698]LogEditorBuildUtils: Build time 0:06
+[2017.10.09-13.56.41:920][908]Job is a success!
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.10.09-13.56.42:940][909]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.10.09-13.56.43:139][909]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.10.09-13.56.43:252][909]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.10.09-13.56.43:291][909]Lightmass on MC10762: 7.59 sec total, 150 ms importing, 24 ms setup, 1.28 sec photons, 6.11 sec processing, 0 ms extra exporting [25/25 mappings]. Threads: 24.4 sec total, 11.1 sec processing.
+[2017.10.09-13.56.43:297][909]LogStaticLightingSystem: Illumination: 13.7 sec (779 ms encoding lightmaps, 305 ms encoding shadowmaps)
+[2017.10.09-13.56.43:297][909]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.10.09-13.56.43:297][909]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.09-13.56.43:375][909]DumpUnbuiltLightIteractions
+[2017.10.09-13.56.43:375][909]Lights with unbuilt interactions: 0
+[2017.10.09-13.56.43:375][909]
+[2017.10.09-13.56.43:375][909]Primitives with unbuilt interactions: 0
+[2017.10.09-13.56.43:389][910]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.09-13.56.43:389][910]MapCheck: New page: TopDownExampleMap - 9 Oct 2017 15:56:43
+[2017.10.09-13.56.43:496][910]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.982ms to complete.
+[2017.10.09-13.56.52:864][192]LogEditorViewport: Clicking Background
+[2017.10.09-13.56.54:072][241]LogEditorViewport: Clicking on Actor (LMB): InteractiveObject_Blueprint_C (InteractiveObject_Blueprint)
+[2017.10.09-13.57.17:259][ 69]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject_C' ref from Metadata '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.57.17:259][ 69]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject.SKEL_InteractiveObject_C' ref from Metadata '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.57.17:259][ 69]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.57.17:259][ 69]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.57.17:259][ 69]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.57.17:259][ 69]LogMetaData: Removing '/Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/InteractiveObject_Blueprint.PackageMetaData'
+[2017.10.09-13.57.17:279][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-13.57.17:360][ 69]LogSavePackage: Save=70.55ms
+[2017.10.09-13.57.17:360][ 69]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject823E0DB74FF4816C071FED8DE6B4C846.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-13.57.17:384][ 69]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-13.57.28:709][747]Cmd: DELETE
+[2017.10.09-13.57.28:710][747]Cmd: ACTOR DELETE
+[2017.10.09-13.57.28:738][747]LogEditorActor: Deleted Actor: InteractiveObject_C
+[2017.10.09-13.57.28:755][747]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.10.09-13.57.31:683][803]LogSlate: Took 0.000518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.09-13.57.53:640][218]LogSlate: Took 0.023238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.09-14.01.06:390][165]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.09-14.05.03:572][427]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-14.06.16:026][ 18]LogSavePackage: Save=892.18ms
+[2017.10.09-14.06.16:026][ 18]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_Auto1270ECD40419294D90CBEE2BB22B9B1FE.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2017.10.09-14.06.16:037][ 18]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2017.10.09-14.06.16:045][ 18]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-14.06.16:047][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.140
+[2017.10.09-14.06.16:047][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.140
+[2017.10.09-14.06.16:106][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData] ([1] browsable assets)...
+[2017.10.09-14.06.16:106][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData]
+[2017.10.09-14.06.16:498][ 18]LogSavePackage: Save=335.00ms
+[2017.10.09-14.06.16:498][ 18]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_BuiltData_Auto1B845DCB74A9A20D8ACA5039AFC07C5CE.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData_Auto1.uasset'
+[2017.10.09-14.06.16:510][ 18]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData_Auto1.uasset
+[2017.10.09-14.06.16:517][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-14.06.16:517][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-14.06.16:655][ 18]LogSavePackage: Save=109.58ms
+[2017.10.09-14.06.16:655][ 18]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto146717C104EE052A02B99AA98E612A713.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto1.uasset'
+[2017.10.09-14.06.16:668][ 18]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto1.uasset
+[2017.10.09-14.06.16:668][ 18]LogFileHelpers: Auto-saving content packages took 0.602
+[2017.10.09-14.17.14:572][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.023
+[2017.10.09-14.17.14:580][132]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-14.17.14:580][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-14.17.14:729][132]LogSavePackage: Save=111.73ms
+[2017.10.09-14.17.14:729][132]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto2B7C3BD7F45BD51DFA3EC81983FA28103.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto2.uasset'
+[2017.10.09-14.17.14:741][132]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto2.uasset
+[2017.10.09-14.17.14:741][132]LogFileHelpers: Auto-saving content packages took 0.168
+[2017.10.09-14.31.56:264][ 15]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-14.31.59:931][334]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.022
+[2017.10.09-14.31.59:938][334]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-14.31.59:938][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-14.32.00:136][334]LogSavePackage: Save=164.26ms
+[2017.10.09-14.32.00:136][334]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto3ABCC81C4496AD429FA93CD870999DE2C.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto3.uasset'
+[2017.10.09-14.32.00:149][334]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto3.uasset
+[2017.10.09-14.32.00:149][334]LogFileHelpers: Auto-saving content packages took 0.218
+[2017.10.09-14.38.01:426][347]LogSlate: Took 0.030142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.10.09-14.46.09:905][422]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-14.47.32:589][294]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-14.47.33:173][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-14.47.33:385][331]LogSavePackage: Save=175.70ms
+[2017.10.09-14.47.33:385][331]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject668FE55B43468F14815546AA3EDBF6FA.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-14.47.33:409][331]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-14.47.36:072][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.09-14.47.37:124][588]LogSavePackage: Save=845.65ms
+[2017.10.09-14.47.37:124][588]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMapFCB8CD3D43D6AE22164326B56AE86D4C.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.10.09-14.47.37:146][588]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.10.09-14.47.37:182][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2017.10.09-14.47.37:596][588]LogSavePackage: Save=367.79ms
+[2017.10.09-14.47.37:596][588]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_BuiltDataA8DE076646727A6153E28CA29C79CED3.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.10.09-14.47.37:624][588]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.10.09-14.49.10:076][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-14.49.10:285][532]LogSavePackage: Save=175.05ms
+[2017.10.09-14.49.10:286][532]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject3B8B5C3543AA038627ECB1A4A1B234C5.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-14.49.10:311][532]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-14.49.41:245][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-14.49.41:436][239]LogSavePackage: Save=169.99ms
+[2017.10.09-14.49.41:436][239]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject8F734B6241D23798ABCC16B65FE6F061.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-14.49.41:462][239]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.05.16:853][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-15.05.17:060][930]LogSavePackage: Save=167.00ms
+[2017.10.09-15.05.17:060][930]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject63C2A0DE4118FF4CEEB2E692738690FB.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-15.05.17:073][930]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.07.17:926][133]LogEditorTransaction: Undo Create Pin Link
+[2017.10.09-15.07.18:322][163]LogEditorTransaction: Undo Create Pin Link
+[2017.10.09-15.07.18:821][215]LogEditorTransaction: Undo Add Node
+[2017.10.09-15.07.19:195][257]LogEditorTransaction: Undo Break Pin Link
+[2017.10.09-15.14.39:525][957]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.022
+[2017.10.09-15.14.39:534][957]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-15.14.39:534][957]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-15.14.39:754][957]LogSavePackage: Save=179.93ms
+[2017.10.09-15.14.39:754][957]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto426605BE74C4F938EE58CFBACC32B8D3C.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto4.uasset'
+[2017.10.09-15.14.39:765][957]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto4.uasset
+[2017.10.09-15.14.39:765][957]LogFileHelpers: Auto-saving content packages took 0.239
+[2017.10.09-15.16.38:977][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-15.16.39:195][280]LogSavePackage: Save=182.56ms
+[2017.10.09-15.16.39:195][280]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObjectD345EF7E49CF741C88334EB9A2C08ADB.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-15.16.39:219][280]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.16.40:281][404]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-15.17.54:530][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-15.17.54:747][179]LogSavePackage: Save=182.25ms
+[2017.10.09-15.17.54:747][179]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject34390250415986566041A0A7ABCE3744.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-15.17.54:771][179]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.17.55:301][240]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-15.20.39:155][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-15.20.39:420][794]LogSavePackage: Save=218.34ms
+[2017.10.09-15.20.39:420][794]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject65C58C2B48C12D7980A9F6AFE963319D.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-15.20.39:449][794]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.20.39:594][811]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-15.28.16:088][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.021
+[2017.10.09-15.28.16:096][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-15.28.16:096][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-15.28.16:345][870]LogSavePackage: Save=200.15ms
+[2017.10.09-15.28.16:345][870]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto591CB340A4945D0C09A3189A2F0A94A8F.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto5.uasset'
+[2017.10.09-15.28.16:362][870]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto5.uasset
+[2017.10.09-15.28.16:362][870]LogFileHelpers: Auto-saving content packages took 0.274
+[2017.10.09-15.38.17:219][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.027
+[2017.10.09-15.38.17:228][ 29]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-15.38.17:228][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-15.38.17:490][ 29]LogSavePackage: Save=213.25ms
+[2017.10.09-15.38.17:490][ 29]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto65F3CA01B4D21271DFD086CA0C6B447A6.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto6.uasset'
+[2017.10.09-15.38.17:504][ 29]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto6.uasset
+[2017.10.09-15.38.17:504][ 29]LogFileHelpers: Auto-saving content packages took 0.284
+[2017.10.09-15.43.09:618][825]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-15.43.16:410][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-15.43.16:686][476]LogSavePackage: Save=226.69ms
+[2017.10.09-15.43.16:686][476]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject8BB0804B4971604F3DBBFCB29541A549.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-15.43.16:710][476]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.44.14:536][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.09-15.44.21:638][229]LogEditorViewport: Clicking on Actor (LMB): InteractiveObject_C (InteractiveObject)
+[2017.10.09-15.44.51:382][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.09-15.44.52:969][489]LogEditorViewport: Clicking on Actor (LMB): InteractiveObject_C (InteractiveObject)
+[2017.10.09-15.45.11:029][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.09-15.45.17:140][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.17:172][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-15.45.17:238][ 99]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:45:17)
+[2017.10.09-15.45.17:258][ 99]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.45.17:365][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107202s)
+[2017.10.09-15.45.17:366][ 99]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.45.17:367][ 99]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2017.10.09-15.45.17:384][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.125690s)
+[2017.10.09-15.45.17:432][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.45.17:471][ 99]LogInit: FAudioDevice initialized.
+[2017.10.09-15.45.17:556][ 99]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.45.17:799][ 99]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.45.17
+[2017.10.09-15.45.17:857][ 99]LogWorld: Bringing up level for play took: 0.072409
+[2017.10.09-15.45.19:012][ 99]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.10.09-15.45.19:135][ 99]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 2.601
+[2017.10.09-15.45.19:136][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.23:116][243]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.23:233][243]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.34:228][637]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.09-15.45.34:247][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.34:248][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-15.45.34:248][637]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:45:34)
+[2017.10.09-15.45.34:248][637]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.45.34:281][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033237s)
+[2017.10.09-15.45.34:283][637]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.45.34:283][637]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2017.10.09-15.45.34:283][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.035045s)
+[2017.10.09-15.45.34:304][637]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.45.34:332][637]LogInit: FAudioDevice initialized.
+[2017.10.09-15.45.34:389][637]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.45.34:397][637]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.45.34
+[2017.10.09-15.45.34:398][637]LogWorld: Bringing up level for play took: 0.006508
+[2017.10.09-15.45.34:400][637]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.136
+[2017.10.09-15.45.34:401][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.40:652][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.40:721][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.45.44:603][ 35]LogEditorViewport: Clicking on Actor (LMB): InteractiveObject_C (InteractiveObject)
+[2017.10.09-15.45.48:336][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2017.10.09-15.45.49:571][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.09-15.46.03:555][728]LogEditorViewport: Clicking on Actor (LMB): InteractiveObject_C (InteractiveObject)
+[2017.10.09-15.47.21:301][156]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.09-15.47.21:320][156]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.21:320][156]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-15.47.21:328][156]LogPlayLevel: [PlayLevel] Compiling InteractiveObject before play...
+[2017.10.09-15.47.21:686][156]LogPlayLevel: PlayLevel: Blueprint regeneration took 366 ms (1 blueprints)
+[2017.10.09-15.47.21:687][156]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:47:21)
+[2017.10.09-15.47.21:687][156]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.47.21:714][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027261s)
+[2017.10.09-15.47.21:715][156]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.47.21:716][156]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2017.10.09-15.47.21:716][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029173s)
+[2017.10.09-15.47.21:735][156]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.47.21:763][156]LogInit: FAudioDevice initialized.
+[2017.10.09-15.47.21:843][156]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.47.21:850][156]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.47.21
+[2017.10.09-15.47.21:851][156]LogWorld: Bringing up level for play took: 0.006576
+[2017.10.09-15.47.21:866][156]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.09-15.47.21:888][156]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.343
+[2017.10.09-15.47.21:890][156]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.22:004][156]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.09-15.47.26:871][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.26:952][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.34:867][692]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.10.09-15.47.35:692][720]LogEditorViewport: Clicking on Actor (LMB): InteractiveObject_C (InteractiveObject)
+[2017.10.09-15.47.39:740][856]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.39:740][856]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.09-15.47.40:199][871]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.40:199][871]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.09-15.47.40:639][887]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.40:639][887]LogEditorTransaction: Undo Edit Mobility
+[2017.10.09-15.47.41:098][903]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.41:098][903]LogEditorTransaction: Undo Edit Mobility
+[2017.10.09-15.47.41:512][918]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.41:512][918]LogEditorTransaction: Undo Set actor scale
+[2017.10.09-15.47.42:320][946]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.42:320][946]LogEditorTransaction: Undo Set actor scale
+[2017.10.09-15.47.42:949][968]Cmd: TRANSACTION UNDO
+[2017.10.09-15.47.42:949][968]LogEditorTransaction: Undo Set actor scale
+[2017.10.09-15.47.56:173][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.09-15.47.57:629][496]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.09-15.47.57:648][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.57:649][496]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-15.47.57:657][496]LogPlayLevel: [PlayLevel] Compiling InteractiveObject before play...
+[2017.10.09-15.47.58:008][496]LogPlayLevel: PlayLevel: Blueprint regeneration took 359 ms (1 blueprints)
+[2017.10.09-15.47.58:009][496]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:47:58)
+[2017.10.09-15.47.58:009][496]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.47.58:034][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024642s)
+[2017.10.09-15.47.58:035][496]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.47.58:035][496]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2017.10.09-15.47.58:035][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026358s)
+[2017.10.09-15.47.58:058][496]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.47.58:099][496]LogInit: FAudioDevice initialized.
+[2017.10.09-15.47.58:132][496]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.47.58:136][496]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.47.58
+[2017.10.09-15.47.58:136][496]LogWorld: Bringing up level for play took: 0.003523
+[2017.10.09-15.47.58:138][496]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.41
+[2017.10.09-15.47.58:138][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.59:817][556]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.47.59:898][556]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.06:659][758]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.09-15.48.06:687][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.06:688][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-15.48.06:689][758]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:48:06)
+[2017.10.09-15.48.06:689][758]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.48.06:713][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023957s)
+[2017.10.09-15.48.06:714][758]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.48.06:715][758]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2017.10.09-15.48.06:715][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025966s)
+[2017.10.09-15.48.06:738][758]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.48.06:751][758]LogInit: FAudioDevice initialized.
+[2017.10.09-15.48.06:784][758]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.48.06:791][758]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.48.06
+[2017.10.09-15.48.06:792][758]LogWorld: Bringing up level for play took: 0.006932
+[2017.10.09-15.48.06:795][758]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.246
+[2017.10.09-15.48.06:796][758]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.21:796][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.21:871][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.49:561][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.49:561][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-15.48.49:561][972]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:48:49)
+[2017.10.09-15.48.49:561][972]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.48.49:584][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022673s)
+[2017.10.09-15.48.49:585][972]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.48.49:585][972]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2017.10.09-15.48.49:585][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023985s)
+[2017.10.09-15.48.49:608][972]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.48.49:630][972]LogInit: FAudioDevice initialized.
+[2017.10.09-15.48.49:662][972]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.48.49:670][972]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.48.49
+[2017.10.09-15.48.49:670][972]LogWorld: Bringing up level for play took: 0.006234
+[2017.10.09-15.48.49:673][972]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.879
+[2017.10.09-15.48.49:673][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.54:377][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.48.54:461][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.49.03:662][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-15.49.03:992][653]LogSavePackage: Save=274.37ms
+[2017.10.09-15.49.03:992][653]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject67E30BB04712D3D0C62855A8B4F2BAF7.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-15.49.04:021][653]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-15.49.04:577][719]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-15.49.07:425][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.09-15.49.08:737][899]LogSavePackage: Save=1102.82ms
+[2017.10.09-15.49.08:737][899]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMapD5DB740A4270959FCA3BEE932D329475.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.10.09-15.49.08:761][899]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.10.09-15.49.08:806][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2017.10.09-15.49.09:176][899]LogSavePackage: Save=292.76ms
+[2017.10.09-15.49.09:176][899]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_BuiltDataC0922D4841750D416616D7B3DE6C0C86.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.10.09-15.49.09:187][899]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.10.09-15.49.10:075][931]MapCheck: New page: Map Check
+[2017.10.09-15.49.10:123][931]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.09-15.49.10:124][931]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.09-15.49.10:207][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.10.09-15.49.10:215][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.10.09-15.49.10:222][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.10.09-15.49.10:230][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.10.09-15.49.10:237][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.10.09-15.49.10:245][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.10.09-15.49.10:256][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.10.09-15.49.10:265][931]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.10.09-15.49.12:535][931]TextureStreamingBuild: Display: Compiling optional shaders took 2.333 seconds.
+[2017.10.09-15.49.12:542][931]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2017.10.09-15.49.12:550][931]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2017.10.09-15.49.12:568][931]LightingResults: New page: Lighting Build - 9 Oct 2017 17:49:12
+[2017.10.09-15.49.12:603][931]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.09-15.49.12:604][931]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.09-15.49.12:604][931]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.09-15.49.12:773][931]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.09-15.49.12:773][931]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5496
+[2017.10.09-15.49.17:993][931]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.09-15.49.17:993][931]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.09-15.49.17:993][931]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.09-15.49.17:994][931]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.09-15.49.17:994][931]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.09-15.49.18:638][931]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.09-15.49.18:639][931]MapCheck: New page: TopDownExampleMap - 9 Oct 2017 17:49:18
+[2017.10.09-15.49.18:987][931]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 348.197ms to complete.
+[2017.10.09-15.49.19:009][931]LogEditorBuildUtils: Build time 0:08
+[2017.10.09-15.49.28:510][197]Job is a success!
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.10.09-15.49.29:580][198]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.10.09-15.49.29:779][198]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.10.09-15.49.29:902][198]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.10.09-15.49.29:919][198]Lightmass on MC10762: 8.31 sec total, 531 ms importing, 64 ms setup, 1.27 sec photons, 6.18 sec processing, 0 ms extra exporting [25/25 mappings]. Threads: 24.7 sec total, 10.9 sec processing.
+[2017.10.09-15.49.29:945][198]LogStaticLightingSystem: Illumination: 17.3 sec (789 ms encoding lightmaps, 319 ms encoding shadowmaps)
+[2017.10.09-15.49.29:946][198]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.10.09-15.49.29:946][198]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.09-15.49.29:994][198]DumpUnbuiltLightIteractions
+[2017.10.09-15.49.29:994][198]Lights with unbuilt interactions: 0
+[2017.10.09-15.49.29:994][198]
+[2017.10.09-15.49.29:994][198]Primitives with unbuilt interactions: 0
+[2017.10.09-15.49.30:001][199]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.09-15.49.30:001][199]MapCheck: New page: TopDownExampleMap - 9 Oct 2017 17:49:30
+[2017.10.09-15.49.30:161][199]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 160.644ms to complete.
+[2017.10.09-15.58.15:697][949]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-15.58.37:178][777]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.09-15.58.37:198][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.58.37:198][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-15.58.37:198][777]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:58:37)
+[2017.10.09-15.58.37:198][777]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.58.37:227][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028729s)
+[2017.10.09-15.58.37:228][777]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.58.37:228][777]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.10.09-15.58.37:228][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030191s)
+[2017.10.09-15.58.37:248][777]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.58.37:285][777]LogInit: FAudioDevice initialized.
+[2017.10.09-15.58.37:320][777]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.58.37:326][777]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.58.37
+[2017.10.09-15.58.37:326][777]LogWorld: Bringing up level for play took: 0.005172
+[2017.10.09-15.58.37:328][777]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.726
+[2017.10.09-15.58.37:329][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.58.50:072][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.58.50:150][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.59.23:362][599]LogSavePackage: Save=860.21ms
+[2017.10.09-15.59.23:362][599]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_Auto73B332BFE4B382A5E32C749932AC83306.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto7.umap'
+[2017.10.09-15.59.23:373][599]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto7.umap
+[2017.10.09-15.59.23:383][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.161
+[2017.10.09-15.59.23:383][599]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.161
+[2017.10.09-15.59.23:407][599]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData] ([1] browsable assets)...
+[2017.10.09-15.59.23:407][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData]
+[2017.10.09-15.59.23:848][599]LogSavePackage: Save=349.84ms
+[2017.10.09-15.59.23:848][599]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_BuiltData_Auto78F7A874B412ED1FC8232B4A783ADCF68.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData_Auto7.uasset'
+[2017.10.09-15.59.23:859][599]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData_Auto7.uasset
+[2017.10.09-15.59.23:866][599]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-15.59.23:911][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject]
+[2017.10.09-15.59.23:911][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-15.59.24:192][599]LogSavePackage: Save=241.65ms
+[2017.10.09-15.59.24:192][599]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto7893DF0AA41476B4A529017BEEC3A64A2.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto7.uasset'
+[2017.10.09-15.59.24:211][599]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto7.uasset
+[2017.10.09-15.59.24:211][599]LogFileHelpers: Auto-saving content packages took 0.810
+[2017.10.09-15.59.38:577][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.59.38:577][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-15.59.38:577][775]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 17:59:38)
+[2017.10.09-15.59.38:577][775]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-15.59.38:612][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035277s)
+[2017.10.09-15.59.38:613][775]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-15.59.38:614][775]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2017.10.09-15.59.38:614][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.036761s)
+[2017.10.09-15.59.38:637][775]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-15.59.38:671][775]LogInit: FAudioDevice initialized.
+[2017.10.09-15.59.38:704][775]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-15.59.38:711][775]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-16.59.38
+[2017.10.09-15.59.38:712][775]LogWorld: Bringing up level for play took: 0.006227
+[2017.10.09-15.59.38:716][775]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.109
+[2017.10.09-15.59.38:718][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-15.59.44:323][910]LogRenderer: Reallocating scene render targets to support 1292x828 Format 10 NumSamples 1 (Frame:137).
+[2017.10.09-16.00.03:403][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.00.03:489][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.13.54:785][733]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-16.13.58:994][192]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-16.13.59:013][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.13.59:013][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-16.13.59:013][192]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 18:13:59)
+[2017.10.09-16.13.59:013][192]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-16.13.59:038][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024320s)
+[2017.10.09-16.13.59:038][192]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-16.13.59:039][192]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.10.09-16.13.59:039][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025787s)
+[2017.10.09-16.13.59:058][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-16.13.59:080][192]LogInit: FAudioDevice initialized.
+[2017.10.09-16.13.59:110][192]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-16.13.59:115][192]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-17.13.59
+[2017.10.09-16.13.59:115][192]LogWorld: Bringing up level for play took: 0.003447
+[2017.10.09-16.13.59:118][192]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.488
+[2017.10.09-16.13.59:119][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.13.59:430][196]LogBlueprintUserMessages: [InteractiveObject_38] Overlap BEGIN.
+[2017.10.09-16.13.59:576][200]LogBlueprintUserMessages: [InteractiveObject_38] Overlap END.
+[2017.10.09-16.13.59:995][210]LogBlueprintUserMessages: [InteractiveObject_38] Overlap BEGIN.
+[2017.10.09-16.14.00:118][213]LogBlueprintUserMessages: [InteractiveObject_38] Overlap END.
+[2017.10.09-16.14.00:678][227]LogBlueprintUserMessages: [InteractiveObject_38] Overlap BEGIN.
+[2017.10.09-16.14.01:665][250]LogBlueprintUserMessages: [InteractiveObject_38] Overlap END.
+[2017.10.09-16.14.03:368][302]LogBlueprintUserMessages: [InteractiveObject_38] Overlap BEGIN.
+[2017.10.09-16.14.04:301][330]LogBlueprintUserMessages: [InteractiveObject_38] Overlap END.
+[2017.10.09-16.14.05:106][354]LogBlueprintUserMessages: [InteractiveObject_38] Overlap BEGIN.
+[2017.10.09-16.14.05:635][370]LogBlueprintUserMessages: [InteractiveObject_38] Overlap END.
+[2017.10.09-16.14.05:901][378]LogBlueprintUserMessages: [InteractiveObject_38] Overlap BEGIN.
+[2017.10.09-16.14.06:268][389]LogBlueprintUserMessages: [InteractiveObject_38] Overlap END.
+[2017.10.09-16.14.07:503][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.14.07:614][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.14.36:449][844]LogSavePackage: Save=920.79ms
+[2017.10.09-16.14.36:449][844]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_Auto8C8C3E76B47548AB73FE83DB243F8DC56.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto8.umap'
+[2017.10.09-16.14.36:506][844]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto8.umap
+[2017.10.09-16.14.36:518][844]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.263
+[2017.10.09-16.14.36:518][844]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.263
+[2017.10.09-16.14.36:539][844]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-16.14.36:588][844]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject]
+[2017.10.09-16.14.36:588][844]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-16.14.36:912][844]LogSavePackage: Save=278.99ms
+[2017.10.09-16.14.36:913][844]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto8ABD2533A4FCAFBA247DCC9ABC7E0D922.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto8.uasset'
+[2017.10.09-16.14.36:925][844]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto8.uasset
+[2017.10.09-16.14.36:925][844]LogFileHelpers: Auto-saving content packages took 0.394
+[2017.10.09-16.16.31:037][819]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.09-16.23.52:719][263]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-16.23.53:426][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-16.23.53:727][296]LogSavePackage: Save=239.22ms
+[2017.10.09-16.23.53:727][296]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject37D3A8F64C699C49447537AE0D679153.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-16.23.53:753][296]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
