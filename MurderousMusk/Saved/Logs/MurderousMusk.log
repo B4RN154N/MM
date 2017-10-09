@@ -798,3 +798,54 @@ LogInit: Object subsystem initialized
 [2017.10.09-16.24.38:493][700]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto9.umap
 [2017.10.09-16.24.38:502][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.100
 [2017.10.09-16.24.38:502][700]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.100
+[2017.10.09-16.32.57:004][543]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-16.33.00:540][921]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-16.33.00:560][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.33.00:560][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-16.33.00:560][921]PIE: New page: PIE session: TopDownExampleMap (9 Oct 2017 18:33:00)
+[2017.10.09-16.33.00:560][921]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.09-16.33.00:582][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022038s)
+[2017.10.09-16.33.00:583][921]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.09-16.33.00:583][921]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2017.10.09-16.33.00:584][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023588s)
+[2017.10.09-16.33.00:605][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-16.33.00:643][921]LogInit: FAudioDevice initialized.
+[2017.10.09-16.33.00:676][921]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.09-16.33.00:680][921]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.09-17.33.00
+[2017.10.09-16.33.00:681][921]LogWorld: Bringing up level for play took: 0.003547
+[2017.10.09-16.33.00:683][921]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.028
+[2017.10.09-16.33.00:684][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.33.02:365][960]LogBlueprintUserMessages: [InteractiveObject_38] clicked
+[2017.10.09-16.33.06:083][ 52]LogBlueprintUserMessages: [InteractiveObject_38] clicked
+[2017.10.09-16.33.07:005][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.33.07:105][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.09-16.34.46:907][ 67]LogSavePackage: Save=1139.23ms
+[2017.10.09-16.34.46:907][ 67]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_Auto06DFE9E31431E42624E07EC9A0C46442E.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto0.umap'
+[2017.10.09-16.34.46:917][ 67]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto0.umap
+[2017.10.09-16.34.46:925][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.425
+[2017.10.09-16.34.46:925][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.425
+[2017.10.09-16.34.46:937][ 67]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/InteractiveObject] ([1] browsable assets)...
+[2017.10.09-16.34.46:986][ 67]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/InteractiveObject.InteractiveObject]
+[2017.10.09-16.34.46:986][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/InteractiveObject]
+[2017.10.09-16.34.47:294][ 67]LogSavePackage: Save=264.51ms
+[2017.10.09-16.34.47:294][ 67]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject_Auto0447E1C1F44F29E887D71FBBD7C41BB17.tmp' to 'M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto0.uasset'
+[2017.10.09-16.34.47:306][ 67]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Saved/Autosaves/Game/TopDownBP/Blueprints/InteractiveObject_Auto0.uasset
+[2017.10.09-16.34.47:306][ 67]LogFileHelpers: Auto-saving content packages took 0.376
+[2017.10.09-16.35.25:451][669]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.09-16.40.25:742][895]BlueprintLog: New page: Compile InteractiveObject
+[2017.10.09-16.40.27:478][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-16.40.27:763][ 51]LogSavePackage: Save=221.93ms
+[2017.10.09-16.40.27:763][ 51]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObject1700CE4D4958264AD79FD78A32104448.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-16.40.27:788][ 51]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
+[2017.10.09-16.40.28:982][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.09-16.40.30:069][109]LogSavePackage: Save=860.15ms
+[2017.10.09-16.40.30:069][109]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap7BA28D9B44E4F54A97E24C8E6A2A3B75.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.10.09-16.40.30:091][109]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.10.09-16.40.30:139][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2017.10.09-16.40.30:526][109]LogSavePackage: Save=307.51ms
+[2017.10.09-16.40.30:526][109]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/TopDownExampleMap_BuiltData33FD10BC465EAD2102274C99C0F822B2.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.10.09-16.40.30:546][109]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.10.09-16.47.22:329][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/InteractiveObject" FILE="M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset" SILENT=true
+[2017.10.09-16.47.22:679][216]LogSavePackage: Save=264.67ms
+[2017.10.09-16.47.22:679][216]LogSavePackage: Moving 'M:/GitHub/MM/MurderousMusk/Saved/InteractiveObjectE06C687942A03728C401718B307F9B4A.tmp' to 'M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset'
+[2017.10.09-16.47.22:707][216]LogSavePackage: Display: Finished SavePackage M:/GitHub/MM/MurderousMusk/Content/TopDownBP/Blueprints/InteractiveObject.uasset
