@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MurderousMusk.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{95FDFA7B-ED86-4F8E-A817-B64628AF5B7A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MurderousMusk.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MurderousMuskEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{532B37AD-0AEA-4328-A73C-E93BCD921ECD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MurderousMusk">
+			<UniqueIdentifier>{07ECE9E3-11DB-47CC-B14D-10D1B08EAA62}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MurderousMusk\DeleteMe.cpp">
+			<Filter>Source\MurderousMusk</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MurderousMusk\DeleteMe.h">
+			<Filter>Source\MurderousMusk</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MurderousMusk\MurderousMusk.Build.cs">
+			<Filter>Source\MurderousMusk</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MurderousMusk\MurderousMusk.cpp">
+			<Filter>Source\MurderousMusk</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MurderousMusk\MurderousMusk.h">
+			<Filter>Source\MurderousMusk</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
