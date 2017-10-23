@@ -76,3 +76,5 @@ DerivedDataCache/*
 
 # Mac
 .DS_Store
+*.log
+*.log
