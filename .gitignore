@@ -78,3 +78,8 @@ DerivedDataCache/*
 .DS_Store
 *.log
 *.log
+
+# Ignoring Binaries, Intermediate & Saved, not just their contents, so we won't accidentally include them
+MurderousMusk/Binaries
+MurderousMusk/Intermediate
+MurderousMusk/Saved
